@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#logo {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 140px;
+}
+
+header {
+    position: relative;
+    display: block;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 4px;
+    top: 4px;
+    right: 6px;
+}
+
+li {
+    float: left;
+    padding-right: 15px;
+}
+
+li a {
+    color: rgba(0,0,0,0.87);
+    width: 33.95px;
+    font-family: Roboto, RobotoDraft, arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-weight: 400;
+    text-decoration: none;
+    text-decoration-style: solid;
+    height: 24px;
+    line-height: 24px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#gapps {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    margin: 0 5px 0 1px;
+}
+
+#gapps:hover {
+    cursor: pointer;
+    background:rgba(229, 231, 232, 1);
+    border-radius: 50%;
+}
+
+.GoogleAppsLogo {
+    fill: #5f6368;
+}
+
+#uicon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin: 5px;
+}
+
+#uicon:hover {
+    cursor: pointer;
+    background:rgba(229, 231, 232, 1);
+    border-radius: 50%;
+}
+
+.UserIcon {
+    display: block;
+    border-radius: 50%;
+}
+
+#glogo {
+    position: relative;
+    bottom: 32px;
+}
+
+#d {
+    background: white;
+    position: absolute;
+    font-size: 100px;
+    font-family: Arial;
+    top: 141px;
+    left: 372px;
+    z-index: 2;
+}
+
+.searchbar {
+    position: relative;
+    display: flex;
+    top: 148px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    border-radius: 22px;
+    height: 44px;
+    width: 55%;
+    max-width: 600px;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+#search-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 20px;
+}
+
+#input {
+    display: inline-block;
+    border-radius: 22px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    top: 200px;
+    width: 100%;
+    padding: 1px 40px 1px 52px;
+}
+
+#input:focus {
+    outline: none;
+}
+
+#mic-icon {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    right: 30px;
+}
+
+.shortcut {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background:white;
+    border-radius: 4px;
+    width: 12%;
+    margin: 0 auto;
+    padding: 15px;
+    justify-content: center;
+    top: 180px;
+}
+
+.shortcut:hover {
+    cursor: pointer;
+    background: rgba(229, 231, 232, 1);
+}
+
+#plus-icon {
+    position: relative;
+    display: flex;
+    color: rgba(0, 0, 0, 0.9);
+    background: rgba(241, 243, 244, 1);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#shortcut-text {
+    color: black;
+    font-family: Arial, "Segoe UI", Tahoma, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400px;
+    height: 15.2px;
+}
+
+#footer {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 63vw;
+    width: 12%;
+    margin-left: auto;
+    margin-right: 2%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .23);
+    border-radius: 22px;
+    height: 35px;
+    font-weight: 520;
+}
+
+#footer:hover {
+    cursor: pointer;
+    background: rgba(66, 133, 244, .04);
+}
+
+#customize-icon {
+    position: relative;
+    left: 5px;
+}
+
+#footer p {
+    color: rgb(26, 115, 232);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 4px 16px;
+    text-align: left;
+}
+
