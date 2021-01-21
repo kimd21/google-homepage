@@ -28,6 +28,7 @@ Lessons learned:
 1. Absolute units used when desiring a fixed position relative to other elements or the viewport
 2. Relative units used when desiring resizing or repositioning relative to changing screen size/resolution
 3. Media queries may be used if desiring stylistic changes upon resolution breakpoints
+4. Minimize usage of positioning (relative, absolute, fixed): unless utilized for a specific purpose. Use static (default) positioning whenever possible.
 
 Things to do:
 1. Optional: Fine-tune adjustments of element positions 
