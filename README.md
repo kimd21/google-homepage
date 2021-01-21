@@ -1,6 +1,7 @@
 # First Odin Project: Google Homepage
 
-## **Day 1**
+**Day 1**
+
 Designed a static mimic of the Google homepage using HTML and CSS.
 
 Challenges faced:
@@ -14,7 +15,8 @@ Lessons learned:
 Things to do:
 1. Make page elements responsive to screen resizing
 
-## **Day 2**
+**Day 2**
+
 Update HTML and CSS to use relative units like rem and vw.
 Make page utilize responsive web design.
 
